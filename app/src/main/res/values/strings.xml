@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PdzCarRental</string>
+    <string name="expandable_text">Welcome to Pdz Car Rental, your worldwide community that reimagines the future with car-sharing.
+        Discover flexible connectivity by renting a car hourly, daily, weekly, or even monthly, all made
+        easy on the Pdz Car Rental app. Our mission is to realise minimise car ownership
+        through accessible mobility, and bring impact to a greener society in every part of the country and beyond. To book a car on Turo,
+        you must create a Pdz account, be 18 years old or older in the US, 21 years old or older in the UK,
+        23 years old or older in Canada, have a valid driver’s license, and get approved to drive on Pdz.
+        When you’re booking your first trip, you’ll go through a quick approval process by entering your driver’s
+        license and some other information. In most cases, you’ll get approved immediately,
+        and you’ll be set for all future road trips, day trips, and business trips!</string>
+</resources>
