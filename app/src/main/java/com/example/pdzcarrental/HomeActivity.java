@@ -59,6 +59,7 @@ public class HomeActivity extends AppCompatActivity {
          @Override
          public void onClick(View v) {
              Intent intent2= new Intent(getApplicationContext(),AboutUsActivity.class);
+
              startActivity(intent2);
          }
      });
@@ -67,7 +68,11 @@ public class HomeActivity extends AppCompatActivity {
      carbutton.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
+
+             String strUser = intent.getStringExtra("currentUser");
+
              Intent intent3= new Intent(getApplicationContext(),CarsActivity.class);
+             intent3.putExtra("thisUser", strUser );
              startActivity(intent3);
          }
      });
@@ -75,7 +80,10 @@ public class HomeActivity extends AppCompatActivity {
      bookbutton.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
+
+             String strUser = intent.getStringExtra("currentUser");
              Intent intent4= new Intent(getApplicationContext(),BookingActivity.class);
+             intent4.putExtra("thisUser", strUser);
              startActivity(intent4);
          }
      });

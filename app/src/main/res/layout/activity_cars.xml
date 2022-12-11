@@ -7,23 +7,13 @@
     android:background="#FFEB3B"
     tools:context=".CarsActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="345dp"
-        android:layout_height="200dp"
-        android:layout_marginBottom="400dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/untitled_1" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginTop="28dp"
-        android:text="Available Cars"
         android:gravity="center"
+        android:text="Available Cars"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -31,4 +21,187 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="155dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="488dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_021_nissan_gt_r_e1637255615878" />
+
+
+    <TextView
+        android:id="@+id/textViewCar1"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="596dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCar111"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="532dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCar1111"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="500dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCar11"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="564dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView66667"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="400dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView66660"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="292dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView66669"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="328dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView66668"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="364dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textVie7"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="188dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView771"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="152dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView773"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="76dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView772"
+        android:layout_width="149dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="116dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="154dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="276dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_1_spec2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="154dp"
+        android:layout_height="145dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/toyota_vios" />
+
+    <Button
+        android:id="@+id/button222"
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="448dp"
+        android:text="Book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2222"
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="236dp"
+        android:text="Book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button22222"
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:text="Book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

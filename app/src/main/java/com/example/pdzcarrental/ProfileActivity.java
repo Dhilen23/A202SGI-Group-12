@@ -56,6 +56,7 @@ public class ProfileActivity extends AppCompatActivity {
               Intent intent= new Intent(getApplicationContext(),UpdateActivity.class);
               intent.putExtra("thisUsern", str1);
               startActivity(intent);
+
           }
       });
 
@@ -64,8 +65,9 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
-                intent.putExtra("thisUsern", str1);
+                intent.putExtra("currentUser", str1);
                 startActivity(intent);
+
             }
         });
 

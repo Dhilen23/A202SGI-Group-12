@@ -60,8 +60,9 @@ public class UpdateActivity extends AppCompatActivity {
                             if(update==true) {
                                 Toast.makeText(UpdateActivity.this, "Update Successful!", Toast.LENGTH_SHORT);
                                 Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
-                                finish();
+                                intent.putExtra("thisUser", currname);
                                 startActivity(intent);
+
                             }
 
                     }else{

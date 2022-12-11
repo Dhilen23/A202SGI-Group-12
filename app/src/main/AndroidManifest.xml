@@ -13,8 +13,14 @@
         <activity android:name=".CarsActivity" />
         <activity android:name=".AboutUsActivity" />
         <activity android:name=".UpdateActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".ProfileActivity"
+
+
+
+            />
+        <activity android:name=".HomeActivity"
+
+            />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
